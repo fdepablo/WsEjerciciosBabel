@@ -1,0 +1,28 @@
+body{
+	text-align:center;
+	min-width:1000px;
+	max-width:1300px;
+}
+#formulario{
+	margin-top:50px;
+	text-align:center;
+	font-size:30px;
+	padding-bottom: 20px;
+	margin-left:30%;
+	margin-right:30%;
+	border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:groove;
+}
+.formTitulos{
+	margin-bottom:40px;
+}
+.nombre1{
+	margin-left:20px;
+}
+#enviar{
+	margin-top:10px;
+}
+h2{
+	text-align:center;
+}

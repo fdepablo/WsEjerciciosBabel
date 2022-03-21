@@ -1,0 +1,28 @@
+
+Ejercicio 1. Git
+
+1- Instalar Git, meter usuario y email
+2- Hacer en java una clase Suma que realice las siguientes operaciones
+
+	1- Suma de dos numeros
+	2- Suma acumulada, se le pasa un valor y va acumulandolo en un atributo. Devuelve
+	el valor total acumulada
+	
+3- Commit de los cambios anteriores
+4- Probeis los metodos en la clase principal (main)
+5- Commit de los cambios.
+6- Crear una rama para hacer la resta, que hagan los siguiente metodos
+
+	1- Resta de dos numeros
+	2- Resta acumulada, se le pasa un valor y hace la resta acumulada en un atributo. Devuelve
+	el valor total de la resta acumulada
+	
+7- Commits de los cambios
+8- Probar los cambios en la clase principal
+9- Commits de los cambias
+
+10- Quiero que forceis a probar los 3 tipos de merge que hemos hecho hoy
+
+11- Quiero que hagais cuenta Github y subáis las ramas con las que habéis trabajado
+
+12- Quiero que forceis un merge con conficto simulando dos repositorios locales y subiendolos al repositorio remoto

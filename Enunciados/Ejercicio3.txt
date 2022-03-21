@@ -1,0 +1,10 @@
+
+Ejercicio 3. HTML y CSS
+
+Hacer el CV en HTML y CSS aplicando lo visto en clase y subirlo al repositorio github.
+
+Ir empezando con la parte de HTML.
+
+#Una vez acabado CSS
+Meter en el CV propiedades CSS vistas en clase. Meter diseño responsive para que se visualice en moviles
+

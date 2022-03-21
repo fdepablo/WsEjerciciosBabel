@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/Ejercicio5/CSS/ejercicio2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="cabezera">
+        <img id="logo" src="/Ejercicio5/img/logo.png" alt="Padel" title="Padel" />
+        <a href="/Ejercicio5/HTML/paginaP.html" style="text-decoration: none;">
+            <h1 id="titulo">Padel Oficial </h1>
+        </a>
+        <a href="/Ejercicio5/HTML/CrearPartido.html" class="enlaces">Organizar partido</a>
+        <a href="/Ejercicio5//HTML/Ranking.html" class="enlaces" >Ver ranking WPT Masculino</a>
+        <a href="/Ejercicio5//HTML/RankingF.html" class="enlaces" >Ver ranking WPT Femenino</a>
+        <a href="https://leganesactivo.com/wp-content/uploads/2020/02/Ale-Galan-Juan-Lebron.jpg"
+                    target="_blank" class="enlaces" id="margenDerecha">Admira a los mejores</a>
+           
+            
+    </div>
+
+    <div style="clear: both;"></div>
+    
+    <div id="cuerpo">
+    <h4 id="organizar">ORGANIZEMOS UN PARTIDO DE PADEL</h2>
+        <p id="infoOrg">Rellena los datos con la informacion del partido.</p>
+
+        
+    <form action="" method="get" id="formulario">
+        <fieldset><legend class="centrado">Datos jugadores:</legend>
+            <label for="nombre">Equipo1</label>
+            <br />
+            <input id="nombre1" type="text" name="nombre" placeholder="Nombre del primer jugador" class="jugador"/>
+            <input id="nombre2" type="text" name="nombre"placeholder="Nombre del segundo jugador" class="jugador"/>
+            <br />
+            <label for="nombre">Equipo2</label>
+            <br />
+            <input id="nombre3" type="text" name="nombre" placeholder="Nombre del primer jugador" class="jugador"/>
+            
+            <input id="nombre4" type="text" name="nombre" placeholder="Nombre del segundo jugador" class="jugador"/>
+            <br />
+            
+        </fieldset>
+            <br>
+        <fieldset><legend class="centrado">Datos del partido:</legend>
+        <label for="dia_nacimiento">Escoja el día para jugar: </label>
+        <select name="dia_nacimiento">
+            <option value="MON">Lunes</option>
+            <option value="TUE">Martes</option>
+            <option value="WED" selected>Miércoles</option>
+            <option value="THU">Jueves</option>
+            <option value="FRI">Viernes</option>
+        </select>
+        <br /><br />
+        <div class="eleccion">
+            <label for="estado_civil">Tipo de pista: </label>
+            <br/><br>	
+            <input type="radio" name="estado_civil" value="S" />Muro
+            <input type="radio" name="estado_civil" value="C" />Cristal
+        <br><br>
+        <label for="estado_civil">Indoor/Exterior: </label>
+            <br/><br>	
+            <input type="radio" name="estado_civil" value="S" />Indoor
+            <input type="radio" name="estado_civil" value="C" />Exterior
+        </div>
+        	
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar"/>
+    </form>
+</div>
+</body>
+<footer>
+    <p>Pagina que me acabo de inventar. No vale para nada. Asumelo. &copy;</p>
+</footer>
+
+</html>

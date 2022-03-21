@@ -1,0 +1,46 @@
+body{
+	margin-top: 80px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    display:block;
+    color: white;
+}
+h1{
+	font-size: 30px;
+}
+#B{
+	margin-top:50px;
+}
+.contenedores{
+	color:white;
+	margin-top:60px;
+	padding: 40px;
+	border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:groove;
+    background-color: #0080c0;
+    display: inline-block;
+}
+.logo{
+	margin-bottom:50px;
+	width:300px;
+}
+.contenedores2{
+	color:black;
+	padding: 40px;
+    display:block;
+}
+#Aqui{
+	color: red;
+	display:inline;
+}
+#pulsaAqui{
+	display:inline;
+	font-size:20px;
+}
+p{
+	display:inline;
+}
