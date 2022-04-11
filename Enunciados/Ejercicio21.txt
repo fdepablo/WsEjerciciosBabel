@@ -40,7 +40,7 @@ Vamos a usar alguna aplicación que hemos construido para probar dicho servicio.
 
 1) Al arrancar la aplicación del ejercicio 20 y antes de mostrar ningun tipo de menu, la aplicación
 nos pedira un usuario y un password para validarlo con el servicio web que hemos creado antes.
-(HTTP cliente Java 11)
+(HTTP cliente Java 11). Podemos hacer un proyeco nuevi (22)
 
 Si el usuario esta "validado" nos dejará entrar en la aplicación y nos mostrará el menu. En caso
 contrario, la aplicación nos dirá que el usuario y el password no es correcto y nos permitira 
@@ -50,8 +50,8 @@ veces antes de acabar el programa. Hacerlo tambien por capas.
 Posible mejora: Hacer la peticion consumiendo "POST /usuarios/login"
 
 2) Repetiremos lo mismo pero para el ejercicio de Angular. OJO AQUI CON EL XSS, tendremos que poner
-en la peticion cabeceras que permitan hacer la petición al servicio. Tendrçeis que meter alguna cabecera
-en la request que permita.
+en la peticion cabeceras que permitan hacer la petición al servicio. Tendreis que meter alguna cabecera
+en la request que permita.  Otro proyecto nuevo (23)
 
 https://www.stackhawk.com/blog/angular-xss-guide-examples-and-prevention/
 
